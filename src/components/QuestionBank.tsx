@@ -13,7 +13,7 @@ function QuestionBank() {
 
   return (
     <section className="question-bank">
-      <h2>Question Bank</h2>
+      <h2>Signal Processing Algorithms and Implementations</h2>
       <div className="quiz-grid">
         {questions.map(question => (
           <QuizCard key={question.id} {...question} />

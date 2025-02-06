@@ -52,7 +52,7 @@ const QuizCard = ({
           value={answer}
           onChange={(e) => setAnswer(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder="Enter your answer..."
+          placeholder="Enter your answer here..."
           disabled={checked}
           className="quiz-input"
         />

@@ -10,6 +10,9 @@
   .quiz-header {
     padding: 1rem;
     border-bottom: 1px solid #71a5de;
+    height: 10em;
+    margin: auto;
+    align-content: center;
   }
   
   .quiz-content {
@@ -21,6 +24,11 @@
     padding: 0.5rem;
     border: 1px solid #71a5de;
     border-radius: 4px;
+    height: 10rem;
+    background-color: #e1ecf7;
+    margin: auto;
+    align-items: flex-start;
+    vertical-align: top;
   }
   
   .score-display {
